@@ -1,0 +1,31 @@
+.side-bar
+{
+    background-color: rgb(225, 225, 225);
+    position: fixed;
+    top: 115px;
+    left: 0px;
+    bottom: 0px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+.side-bar-button-div
+{
+    height: 60px;
+ 
+}
+.side-bar button
+{
+    text-align: left;
+    padding-left: 20px;
+    
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: white;
+}
+.side-bar button:hover
+{
+    background-color: rgb(225, 224, 224);
+    transition: 1s;
+}
